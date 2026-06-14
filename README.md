@@ -35,11 +35,13 @@ It was developed as a final project for Code in Place, focusing on programming f
 The player explores a locked room, solves puzzles, and collects items to escape.
 
 # 📂 Download the executable file for my Code in Place Final Project (Python)
-Link:
-<a href="https://github.com/nonpublicserv/nonpublicserv/raw/main/assets/main.rar">
+Dowload for Windows 👉
+<a href="./assets/PythonNatorEscapeRoomWindows.rar">
 Download the executable game here
 </a>
-👉 [Download the executable](https://github.com/nonpublicserv/nonpublicserv/raw/main/assets/main.rar)
+
+Download for Linux:
+👉 [Download for Linux](./assets/PythonNatorEscapeRoomLinux)
 
 # ⚙️ Key Design Principles
 PythonNator Escape Room is an immersive and interactive, educational game built with Python that blends gameplay with hands-on learning.
@@ -92,8 +94,11 @@ python-nator-escape_room/
 │
 ├── build/                 # PyInstaller build files (temporary)
 │
-├── dist/
-│   └── main.exe           # Final compiled executable (PyInstaller output)
+├── dist/linux
+│   └── PythonNatorEscapeRoomWindows  # Final compiled executable (PyInstaller output)
+│
+├── dist/windows
+│   └── PythonNatorEscapeRoomWindows.exe  # Final compiled executable (PyInstaller output)
 │
 ├── core/                  # Core game engine (main logic systems)
 │   ├── assets_loader.py   # Loads and manages all game assets
