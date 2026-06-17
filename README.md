@@ -35,12 +35,16 @@ It was developed as a final project for Code in Place, focusing on programming f
 The player explores a locked room, solves puzzles, and collects items to escape.
 
 # 📂 Download the executable file for my Code in Place Final Project (Python)
-Download for Windows 👉  <a href="https://github.com/nonpublicserv/python-nator-escape-room-specs/raw/main/assets/PythonNatorEscapeRoomWindows.rar">
+🪟 Download for Windows 👉  <a href="https://github.com/nonpublicserv/python-nator-escape-room-specs/raw/main/assets/PythonNatorEscapeRoomWindows.rar">
 Download the executable game here
 </a>
 
-Download for Linux 👉  <a href="https://github.com/nonpublicserv/python-nator-escape-room-specs/raw/main/assets/PythonNatorEscapeRoomLinux">
+🐧Download for Linux 👉  <a href="https://github.com/nonpublicserv/python-nator-escape-room-specs/raw/main/assets/PythonNatorEscapeRoomLinux">
 Download for Linux
+</a>
+
+🍎 Download for macOS 👉  <a href="https://github.com/nonpublicserv/python-nator-escape-room-specs/raw/main/assets/PythonNatorEscapeRoomMac">
+Download for macOS
 </a>
 
 # ⚙️ Key Design Principles
@@ -93,6 +97,9 @@ python-nator-escape_room/
 │   └── sounds/            # Sound effects (pickup, UI, puzzle, etc.)
 │
 ├── build/                 # PyInstaller build files (temporary)
+│
+├── dist/macos
+│   └── PythonNatorEscapeRoomMac  # Final compiled executable (PyInstaller output)
 │
 ├── dist/linux
 │   └── PythonNatorEscapeRoomWindows  # Final compiled executable (PyInstaller output)
